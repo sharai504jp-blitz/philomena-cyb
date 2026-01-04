@@ -41,5 +41,5 @@ defmodule PhilomenaWeb.StaffView do
   end
 
   def staff_description(_),
-    do: "This person didn't provide any description, they seem to need a hug."
+    do: "This cybe didn't provide any description, they seem to need a hug. Thank you!"
 end
