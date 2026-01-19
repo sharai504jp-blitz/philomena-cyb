@@ -13,7 +13,7 @@ div
       => pretty_time(@comment.edited_at)
 
       = if @comment.edit_reason not in [nil, ""] do
-        ' because:
+        ', The reason given is -
         => @comment.edit_reason
 
 div
