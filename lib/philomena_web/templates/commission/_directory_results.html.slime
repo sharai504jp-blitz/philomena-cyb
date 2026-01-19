@@ -61,7 +61,7 @@ elixir:
 
                   p
                     strong
-                      = link "More information", to: ~p"/profiles/#{c.user}/commission"
+                      = link "For more more information, vist our commissions!", to: ~p"/profiles/#{c.user}/commission"
 
       - true ->
         p We couldn't find any commission listings to display. Sorry!
